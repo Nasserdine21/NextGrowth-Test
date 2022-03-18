@@ -1,0 +1,41 @@
+table{
+
+    border-collapse: collapse;
+    width:90%;    
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  
+}
+
+table th{
+    text-align: left;
+    
+    padding-bottom: 2rem;
+    color: black;
+    
+}
+table td{
+    opacity: .7;
+    
+    padding: 2rem 0;
+    text-align: left;
+    border-top: 1px solid rgb(98, 97, 97);
+
+}
+.delete{
+    cursor: pointer;
+}
+.delete:hover{
+    color: red;
+    transition: all .1.5s linear;
+}
+.etat{
+    color: white;
+    width:fit-content;
+    padding: 0.4rem 2rem;
+    border-radius: 0.6rem;
+}
