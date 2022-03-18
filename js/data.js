@@ -72,7 +72,25 @@ etat.forEach(element => {
 
 
 
+function DateFormater(date) {
 
+  let year = date.getFullYear();
+  let month = (1 + date.getMonth()).toString().padStart(2, '0');
+  let day = date.getDate().toString().padStart(2, '0');
+
+  return day + '/' + month + '/' + year;
+  
+}
+
+
+let time = document.querySelectorAll('.time');
+  
+time.forEach(element => {
+
+  let temp = new Date(element.textContent);
+        
+  element.innerHTML = DateFormater(temp)
+});
 
 
 
