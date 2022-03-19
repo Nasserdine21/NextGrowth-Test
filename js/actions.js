@@ -81,6 +81,13 @@ let trash = document.querySelectorAll('.delete');
 
     }
 
+    nom.value = "";
+    prenom.value = "";
+    date.value = "";
+    user.value = "";
+    Matricule.value = "";
+    status.value = "";
+
     
 
 

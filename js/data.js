@@ -92,6 +92,16 @@ time.forEach(element => {
   element.innerHTML = DateFormater(temp)
 });
 
+let trash = document.querySelectorAll('.delete');
+  
+    for(let d = 0; d < trash.length ; d++){
+        
+        trash[d].addEventListener("click", function() {
+            this.parentNode.remove();
+        });
+
+    }
+
 
 
   
